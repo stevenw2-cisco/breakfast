@@ -664,7 +664,9 @@ The bar and author name are colour-coded:
 - Bar colour follows the age-based gradient (green → yellow → orange → red)
   based on the oldest open PR for that author.
 - Author names cycle through the current seasonal colour palette
-  when seasonal colours are enabled.
+  when seasonal colours are enabled. During special months (January, Easter,
+  October, December) a themed gradient is applied; all other months render
+  author names in the default terminal colour.
 
 Config key: `summarise-user-prs = true`
 
